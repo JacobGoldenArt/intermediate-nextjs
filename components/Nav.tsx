@@ -1,7 +1,12 @@
 'use client'
 import { Input } from '@nextui-org/react'
 import { Button, Tooltip } from '@nextui-org/react'
-import { CirclePlus } from 'lucide-react'
+import { m } from 'framer-motion'
+import { CirclePlus, Shell, SortAsc } from 'lucide-react'
+
+// I was mistakenly thinking that because this was called Nav
+// that is was part of the Sidebar, but now I see that it is a
+// used in the Shell component above the main content as a sort of header.
 
 const Nav = () => {
   return (

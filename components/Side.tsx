@@ -5,6 +5,9 @@ import Link from 'next/link'
 import Logo from '@/images/pardy.png'
 import { Button } from '@nextui-org/react'
 
+// Notice how links are defined as objects with a route and name property kind of like a Touple. (do they have touples in typescript?)
+// then the links are mapped over and the active class is applied to the link that is active in the jsx below.
+
 const links = [
   { route: '/dashboard', name: 'Home' },
   { route: '/dashboard/events', name: 'Events' },

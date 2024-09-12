@@ -1,6 +1,8 @@
 import Side from './Side'
 import Nav from './Nav'
 
+// This compoonent kind of actts as a layout component, it is used to wrap the content of the page.tsx file, but is generic enough to be used in other with other pages and layouts. 
+
 const Shell = ({ children }) => {
   return (
     <div className="flex w-screen h-screen">
